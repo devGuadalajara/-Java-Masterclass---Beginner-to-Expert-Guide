@@ -14,6 +14,9 @@ public class variables
 
         String pet = "Dog";
         String petName = "Fari";
+        boolean isPetAlive = true;
+        boolean isPetCute = true;
+        boolean isPetSleeping = false;
         byte petHeight = 40;
         short petWeight = 8;
         double petAge = 7.3;
@@ -25,6 +28,5 @@ public class variables
         System.out.println( "Weight:" + petWeight );
         System.out.println( "Age: " + petAge );
         System.out.println( "Blood type: " + petBloodType );
-
     }
 }
