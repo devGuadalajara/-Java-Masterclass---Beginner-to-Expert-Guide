@@ -15,6 +15,7 @@ public class Ball
     private int bounceRate;
     private int capacity;
 
+
     //Constructors
     //Allow us to construct proper objects - Initialize state of properties
     public Ball( String brand, String color, String type, int bounceRate, int capacity )
@@ -25,6 +26,7 @@ public class Ball
         this.bounceRate = bounceRate;
         this.capacity = capacity;
     }
+
 
     //Methods (Behaviour)
     public void bounce()
@@ -42,13 +44,60 @@ public class Ball
         System.out.println( "Inflating" );
     }
 
-    public void getColor()
+
+    //Getters and Setters
+    //Brand
+    public String getBrand()
     {
-        System.out.println( this.color );
+        return brand;
     }
 
-    public void getCapacity()
+    public void setBrand( String brand )
     {
-        System.out.println( this.capacity );
+        this.brand = brand;
     }
+
+    //Color
+    public String getColor()
+    {
+        return color;
+    }
+
+    public void setColor( String color )
+    {
+        this.color = color;
+    }
+
+    //Type
+    public String getType()
+    {
+        return type;
+    }
+
+    public void setType( String type )
+    {
+        this.type = type;
+    }
+
+    //BounceRate
+    public int getBounceRate() {
+        return bounceRate;
+    }
+
+    public void setBounceRate( int bounceRate )
+    {
+        this.bounceRate = bounceRate;
+    }
+
+    //Capacity
+    public int getCapacity()
+    {
+        return capacity;
+    }
+
+    public void setCapacity( int capacity )
+    {
+        this.capacity = capacity;
+    }
+
 }
