@@ -18,6 +18,11 @@ public class Ball
 
     //Constructors
     //Allow us to construct proper objects - Initialize state of properties
+    public Ball ()
+    {
+
+    }
+
     public Ball( String brand, String color, String type, int bounceRate, int capacity )
     {
         this.brand = brand;
@@ -44,6 +49,14 @@ public class Ball
         System.out.println( "Inflating" );
     }
 
+    public void getAllProperties()
+    {
+        System.out.println( "Brand: " + this.brand );
+        System.out.println( "Color: " + this.color );
+        System.out.println( "Type: " + this.type );
+        System.out.println( "Bounce rate: " + this.bounceRate );
+        System.out.println( "Capacity: " + this.capacity );
+    }
 
     //Getters and Setters
     //Brand
