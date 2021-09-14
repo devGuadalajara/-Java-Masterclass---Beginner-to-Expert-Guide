@@ -16,5 +16,15 @@ public class methods_and_opetators
         double orangePrice = 1.7;
         double applePrice = 0.99;
         double grapePrice = 0.24;
+
+        System.out.println( "\ntotal:" );
+        System.out.println( "Oranges: $" + (oranges * orangePrice) );
+        System.out.println( "Apples: $" + (apples * applePrice) );
+        System.out.println( "Grapes: $" + (grapes * grapePrice) );
+
+        double clientsBudget = 599.99;
+
+        System.out.println( "Client");
+
     }
 }
