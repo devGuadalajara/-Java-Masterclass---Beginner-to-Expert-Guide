@@ -8,11 +8,22 @@ public class POO
         myBall.inflate();
         myBall.deflate();
         myBall.getAllProperties();
+        System.out.println( "----------------------" );
 
         Ball myFavouriteBall = new Ball();
         myFavouriteBall.setBrand( "Amazon basics" );
         myFavouriteBall.setType( "Soccer" );
         myFavouriteBall.setColor( "Green" );
         myFavouriteBall.getAllProperties();
+        System.out.println( "----------------------" );
+
+        Ball miriamBall = new Ball( "Generic",  "Baseball" );
+        miriamBall.getAllProperties();
+        miriamBall.setColor( "White and red strips" );
+        miriamBall.setCapacity( 75 );
+        miriamBall.setBounceRate( 25 );
+
+        System.out.println( "----------------------" );
+        miriamBall.getAllProperties();
     }
 }

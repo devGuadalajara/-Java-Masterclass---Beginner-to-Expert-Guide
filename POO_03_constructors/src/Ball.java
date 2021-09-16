@@ -18,18 +18,34 @@ public class Ball
 
     //Constructors
     //Allow us to construct proper objects - Initialize state of properties
+
+    //Default constructor
     public Ball ()
     {
 
+    }
+
+    //Overloading a constructor with different arguments
+    public Ball( String brand, String type )
+    {
+        this.brand = brand;
+        this.type  = type;
+    }
+
+    public Ball ( String type, int bounceRate, int capacity )
+    {
+        this.type = type;
+        this.bounceRate = bounceRate;
+        this.capacity = capacity;
     }
 
     public Ball( String brand, String color, String type, int bounceRate, int capacity )
     {
         this.brand = brand;
         this.color = color;
-        this.type = type;
+        this.type  = type;
         this.bounceRate = bounceRate;
-        this.capacity = capacity;
+        this.capacity   = capacity;
     }
 
 
